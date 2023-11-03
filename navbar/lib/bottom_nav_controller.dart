@@ -21,6 +21,10 @@ class _BottomNavState extends State<BottomNav> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+        appBar: AppBar(
+          backgroundColor: Colors.pink[200],
+          title: const Center(child: Text("Bottom Navigation Bar")),
+        ),
         bottomNavigationBar: BottomNavigationBar(
           elevation: 3,
           currentIndex: currentindex,
